@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["AGENTS.md"],
+  "references": {
+    "specs": {
+      "path": "docs",
+      "description": "Especificaciones del proyecto: visión global en spec.md y specs por fase en specs/. Consultar antes de implementar cualquier fase."
+    }
+  }
+}
