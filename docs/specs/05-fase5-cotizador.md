@@ -1,11 +1,11 @@
 ---
-fase: 4
+fase: 5
 titulo: Cotizador STL — Análisis en navegador y estimado de precio
 estado: definida
-depende_de: [1]
+depende_de: [1, 3]
 ---
 
-# Fase 4 — Cotizador STL: análisis en navegador y estimado de precio
+# Fase 5 — Cotizador STL: análisis en navegador y estimado de precio
 
 ## Objetivo
 
@@ -25,13 +25,14 @@ precio (gramos, dimensiones, tiempo, desglose), todo en el navegador.
 
 ### No incluye
 
-- Envío de la cotización (Fase 5)
+- Envío de la cotización (Fase 6)
 - Vista 3D del modelo
 - Precisión de slicer real (Bambu Studio es la referencia final)
 
 ## Entradas / Salidas
 
-- **Entradas**: STL del usuario + `pricing-config.json` (Fase 2)
+- **Entradas**: STL del usuario + `pricing-config.json` (Fase 2); UI sobre los
+  componentes de la Fase 3
 - **Salidas**: desglose de precio visible en pantalla, sin llamadas de red
 
 ## Criterios de aceptación básicos
@@ -43,8 +44,8 @@ precio (gramos, dimensiones, tiempo, desglose), todo en el navegador.
 
 ## Dependencias
 
-- Fase 1 (estructura); usa `pricing-config.json` de la Fase 2
+- Fase 1 (estructura) y Fase 3 (diseño); usa `pricing-config.json` de la Fase 2
 
 ## Refinamiento — PENDIENTE
 
-<!-- Se completa con `/refine-spec 4` justo antes de implementar. -->
+<!-- Se completa con `/refine-spec 5` justo antes de implementar. -->

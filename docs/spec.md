@@ -24,6 +24,7 @@ Sitio web "lite" para un negocio personal de impresión 3D (Bambu Lab A1):
 | Hosting | Cloudflare Pages o Netlify (gratis); dominio propio: decidir después |
 | Repo | github.com/jhuazjp/e3d — `main` estable/deploy, `dev` desarrollo |
 | Idioma | Documentación e interfaz en español |
+| Sistema de diseño | Fase 3: tokens + componentes + `docs/design.md`; identidad (paleta/tipografía) propuesta en `/refine-spec 3` y aprobada por el usuario antes de implementar |
 
 ## Reglas de negocio — Cotización
 
@@ -40,10 +41,11 @@ Sitio web "lite" para un negocio personal de impresión 3D (Bambu Lab A1):
 |---|------|--------|
 | 1 | [Fase 1 — Foundation](specs/01-fase1-foundation.md) | definida |
 | 2 | [Fase 2 — Datos](specs/02-fase2-data.md) | definida |
-| 3 | [Fase 3 — Catálogo](specs/03-fase3-catalogo.md) | definida |
-| 4 | [Fase 4 — Cotizador STL](specs/04-fase4-cotizador.md) | definida |
-| 5 | [Fase 5 — Envíos](specs/05-fase5-envios.md) | definida |
-| 6 | [Fase 6 — SEO y docs](specs/06-fase6-seo.md) | definida |
-| 7 | [Fase 7 — Deploy](specs/07-fase7-deploy.md) | definida |
+| 3 | [Fase 3 — Diseño](specs/03-fase3-diseno.md) | definida |
+| 4 | [Fase 4 — Catálogo](specs/04-fase4-catalogo.md) | definida |
+| 5 | [Fase 5 — Cotizador STL](specs/05-fase5-cotizador.md) | definida |
+| 6 | [Fase 6 — Envíos](specs/06-fase6-envios.md) | definida |
+| 7 | [Fase 7 — SEO y docs](specs/07-fase7-seo.md) | definida |
+| 8 | [Fase 8 — Deploy](specs/08-fase8-deploy.md) | definida |
 
 Actualizar esta tabla cuando cambie el estado de una spec.

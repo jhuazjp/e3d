@@ -1,11 +1,11 @@
 ---
-fase: 7
+fase: 8
 titulo: Deploy — Cloudflare Pages / Netlify con subdominio gratis
 estado: definida
-depende_de: [6]
+depende_de: [7]
 ---
 
-# Fase 7 — Deploy: publicación con subdominio gratis
+# Fase 8 — Deploy: publicación con subdominio gratis
 
 ## Objetivo
 
@@ -43,8 +43,8 @@ instrucciones para conectar un dominio propio cuando el usuario lo decida.
 
 ## Dependencias
 
-- Fase 6 (sitio completo y documentado); cuenta gratuita en el hosting elegido
+- Fase 7 (sitio completo y documentado); cuenta gratuita en el hosting elegido
 
 ## Refinamiento — PENDIENTE
 
-<!-- Se completa con `/refine-spec 7` justo antes de implementar. -->
+<!-- Se completa con `/refine-spec 8` justo antes de implementar. -->

@@ -1,11 +1,11 @@
 ---
-fase: 3
+fase: 4
 titulo: Catálogo — Home, listado con filtros y detalle
 estado: definida
-depende_de: [2]
+depende_de: [2, 3]
 ---
 
-# Fase 3 — Catálogo: home, listado con filtros y detalle
+# Fase 4 — Catálogo: home, listado con filtros y detalle
 
 ## Objetivo
 
@@ -20,16 +20,17 @@ de producto, con layout compartido.
 - `/` — inicio: destacados, categorías, llamada a cotizar
 - `/productos` — listado completo con filtro por categoría
 - `/productos/[slug]` — detalle: descripción, specs, precio, CTA
-- Componentes: `ProductCard`, `CategoryFilter`, etc.
+- Componentes: `ProductCard`, `CategoryFilter`, etc., construidos sobre los
+  tokens y componentes base de la Fase 3
 - Responsive (mobile-first)
 
 ### No incluye
 
-- Cotizador (Fase 4), envíos (Fase 5), SEO amplio (Fase 6)
+- Cotizador (Fase 5), envíos (Fase 6), SEO amplio (Fase 7)
 
 ## Entradas / Salidas
 
-- **Entradas**: datos de la Fase 2
+- **Entradas**: datos de la Fase 2 y sistema de diseño de la Fase 3
 - **Salidas**: 3 rutas renderizando los 20 productos reales de ejemplo
 
 ## Criterios de aceptación básicos
@@ -41,8 +42,8 @@ de producto, con layout compartido.
 
 ## Dependencias
 
-- Fase 2 (datos)
+- Fase 2 (datos) y Fase 3 (sistema de diseño)
 
 ## Refinamiento — PENDIENTE
 
-<!-- Se completa con `/refine-spec 3` justo antes de implementar. -->
+<!-- Se completa con `/refine-spec 4` justo antes de implementar. -->

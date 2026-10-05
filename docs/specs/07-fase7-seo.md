@@ -1,11 +1,11 @@
 ---
-fase: 6
+fase: 7
 titulo: SEO y documentación — Meta, sitemap, README
 estado: definida
-depende_de: [3]
+depende_de: [4]
 ---
 
-# Fase 6 — SEO y documentación
+# Fase 7 — SEO y documentación
 
 ## Objetivo
 
@@ -26,11 +26,11 @@ instrucciones para editar productos, precios y desplegar.
 ### No incluye
 
 - Blog, analytics, herramientas de pago por clic
-- Dominio propio (Fase 7)
+- Dominio propio (Fase 8)
 
 ## Entradas / Salidas
 
-- **Entradas**: sitio con catálogo y cotizador funcionando (fases 3–5)
+- **Entradas**: sitio con catálogo y cotizador funcionando (fases 4–6)
 - **Salidas**: build con sitemap; README que permite mantener el sitio sin la IA
 
 ## Criterios de aceptación básicos
@@ -41,8 +41,8 @@ instrucciones para editar productos, precios y desplegar.
 
 ## Dependencias
 
-- Fase 3 (páginas); conviene después de Fase 5 para documentar todo
+- Fase 4 (páginas); conviene después de Fase 6 para documentar todo
 
 ## Refinamiento — PENDIENTE
 
-<!-- Se completa con `/refine-spec 6` justo antes de implementar. -->
+<!-- Se completa con `/refine-spec 7` justo antes de implementar. -->

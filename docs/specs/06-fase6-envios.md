@@ -1,11 +1,11 @@
 ---
-fase: 5
+fase: 6
 titulo: Envíos — WhatsApp y email (Web3Forms)
 estado: definida
-depende_de: [4]
+depende_de: [5]
 ---
 
-# Fase 5 — Envíos: WhatsApp y email (Web3Forms)
+# Fase 6 — Envíos: WhatsApp y email (Web3Forms)
 
 ## Objetivo
 
@@ -31,7 +31,7 @@ WhatsApp con mensaje pre-lleno y formulario por email.
 
 ## Entradas / Salidas
 
-- **Entradas**: resultado del cotizador (Fase 4), número de WhatsApp y
+- **Entradas**: resultado del cotizador (Fase 5), número de WhatsApp y
   access key de Web3Forms (los aporta el usuario)
 - **Salidas**: mensaje abierto en WhatsApp / email enviado al negocio
 
@@ -43,8 +43,8 @@ WhatsApp con mensaje pre-lleno y formulario por email.
 
 ## Dependencias
 
-- Fase 4 (resultado de cotización); número de WhatsApp y clave Web3Forms del usuario
+- Fase 5 (resultado de cotización); número de WhatsApp y clave Web3Forms del usuario
 
 ## Refinamiento — PENDIENTE
 
-<!-- Se completa con `/refine-spec 5` justo antes de implementar. -->
+<!-- Se completa con `/refine-spec 6` justo antes de implementar. -->
